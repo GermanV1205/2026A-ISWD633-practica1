@@ -29,7 +29,7 @@ docker start <nombre contenedor o identificador>
 ```
 Iniciar el contenedor srv-web 
 ```
-
+docker start srv-web
 ```
 ### Listar los contenedores ejecutándose
 ```
