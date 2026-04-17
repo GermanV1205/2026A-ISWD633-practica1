@@ -14,13 +14,13 @@ docker pull <nombre imagen>:<tag>
 ```
 
 Descargar la imagen **hello-world**
-# COMPLETAR
+docker pull hello-world
 
 **¿Qué es nginx?**
-# COMPLETAR 
+es un servidor web de código abierto de alto rendimiento, conocido por su bajo consumo de memoria y alta capacidad de manejar miles de conexiones simultaneas
 
 Descargar la imagen  **nginx** en la versión **alpine**
-# COMPLETAR
+docker pull nginx:alpine
 
 ### Listar imágenes
 
@@ -29,6 +29,7 @@ docker images
 ```
 
 # COLOCAR UNA CAPTURA DE PANTALLA DEL RESULTADO 
+
 
 **Identificadores**
 
