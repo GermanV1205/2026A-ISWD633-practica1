@@ -6,9 +6,17 @@ docker exec <nombre contenedor> <comando> <argumentos opcionales>
 ```
 # COMPLETAR
 ### ¿Para qué se usa el comando ls?
+```
+se utiliza principalmente para listar recursos (containers, images, volumes, networks) de forma clara y estructurada
+```
 ### ¿Para qué sirve el argumento -l junto al comando ls?
+```
+se utiliza para mostrar el contenido de un directorio en formato de listado largo
+```
 ### Usar el contenedor de jenkins creado previamente y ejecutar el comando ls con el argumento -l
-# COMPLETAR
+```
+docker exec srv-jenkinks ls -l
+```
 # COLOCAR UNA CAPTURA DE PANTALLA
 
 ### Para ejecutar un shell interactivo en un contenedor de Docker especificado.
@@ -67,8 +75,9 @@ docker exec -it <nombre contenedor> <programa o comando>
 ```
 
 ### Ahora puedes acceder al contenedor de jenkins y obtener la contraseña ubicada en /var/jenkins_home/secrets/initialAdminPassword
-
-# COMPLETAR
+```
+docker exec -i-t <srv-jenkins> <programa o comando> cat /var/jenkins_home/secrets/initialAdminPassword
+```
 
 ### Colocar una captura de pantalla de la ventana que aparece después de colocar la contraseña.
 
