@@ -18,6 +18,7 @@ se utiliza para mostrar el contenido de un directorio en formato de listado larg
 docker exec srv-jenkinks ls -l
 ```
 # COLOCAR UNA CAPTURA DE PANTALLA
+![Imagen](jenkins_Ls.png)
 
 ### Para ejecutar un shell interactivo en un contenedor de Docker especificado.
 El comando **docker exec** te permite acceder a la sesión shell de un contenedor en ejecución, estarás dentro del contenedor y podrás ejecutar comandos como si estuvieras en una terminal normal. 
@@ -57,6 +58,7 @@ Ejecutar
 whoami
 ```
 # COLOCAR UNA CAPTURA DE PANTALLA
+![Imagen](whoami_Resultado.png)
 
 **Si se visualiza el mensaje command not found, considerar**
 El problema se debe a que no se ha asignado un terminal de salida al contenedor al ejecutar el comando. Cuando usas docker exec -i jenkins-server /bin/bash en Windows, el comando se ejecuta pero no hay un terminal asignado para mostrar la salida del comando.
@@ -80,6 +82,8 @@ docker exec -i-t <srv-jenkins> <programa o comando> cat /var/jenkins_home/secret
 ```
 
 ### Colocar una captura de pantalla de la ventana que aparece después de colocar la contraseña.
+
+![Imagen](contraseña_Jenkins.png)
 
 **Para este punto no es necesario continuar con la instalación de Jenkins**
 
